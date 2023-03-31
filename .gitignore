@@ -1,0 +1,11 @@
+__pycache__
+domain/answer/__pycache__/
+domain/question/__pycache__/
+.idea
+myapi.db
+*.pyc
+__pycache__
+migrations
+alembic.ini
+.env
+informs
