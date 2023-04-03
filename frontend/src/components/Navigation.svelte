@@ -8,7 +8,7 @@
 <!-- 네비게이션바 -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
     <div class="container-fluid">
-        <!-- PYBO로고를 눌렀을 땐 page의 값을 0으로 바꿔 첫 페이지로 이동할 수 있게끔 변수를 0으로 만들어준다. -->
+        <!-- PYBO로고를 눌렀을 땐 page의 값을 0으로 바꿔 첫 페이지로 이동할 수 있게끔 변수를 0으로 만들어준다 -->
         <a use:link class="navbar-brand" href="/" on:click="{() => {$keyword = '', $page = 0}}">Dancey</a>
         <button
             class="navbar-toggler"
